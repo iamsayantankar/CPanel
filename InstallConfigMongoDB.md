@@ -44,7 +44,7 @@ security:
   authorization: enabled
 net:
   port: 27017
-  bindIp: 127.0.0.1
+  bindIp: 127.0.0.1,<private_host_ip>,<loopback_ip>,<network_interface_ip> 
 ```
 - Check Port is Allowed through Firewall
 ```sh
